@@ -1,0 +1,1 @@
+bash ~/rk3588-vision/realtime_test/run.sh

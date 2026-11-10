@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
                   << "Press Q or Esc in the preview window to exit" << std::endl;
 
         for (;;) {
-            // frame 就是下一步交给 YOLO 的图像。waitKey 也处理窗口事件。
+            // waitKey 同时处理窗口事件，让预览保持响应。
             cv::imshow(window, frame);
             const int key = cv::waitKey(1);
             if (key == 'q' || key == 'Q' || key == 27) {

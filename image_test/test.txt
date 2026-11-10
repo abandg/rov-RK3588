@@ -1,1 +1,1 @@
-cd ~/rk3588-vision/image_test && ./image_probe ../yolov8_relu_80class_ZQ.rknn ./test.jpg
+bash ~/rk3588-vision/image_test/run.sh

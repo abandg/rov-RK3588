@@ -1,0 +1,1 @@
+bash ~/rk3588-vision/camera_test/run.sh
